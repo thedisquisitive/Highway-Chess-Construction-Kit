@@ -1,0 +1,51 @@
+{
+  "objects": [
+    {
+      "id": "tile.road",
+      "label": "Road Tile",
+      "category": "tile",
+      "sprite": "art/tile_road.png",
+      "size": {
+        "tilesX": 1,
+        "tilesY": 1
+      },
+      "tags": [
+        "walkable",
+        "lane"
+      ]
+    },
+    {
+      "id": "hazard.car",
+      "label": "Car",
+      "category": "hazard",
+      "sprite": "art/hazard_car.png",
+      "size": {
+        "tilesX": 1,
+        "tilesY": 1
+      },
+      "tags": [
+        "lane",
+        "blocking"
+      ]
+    },
+    {
+      "id": "tile.river1",
+      "label": "River",
+      "category": "tile",
+      "sprite": "art/tile_river1.png",
+      "size": {
+        "tilesX": 1,
+        "tilesY": 1
+      },
+      "tags": [],
+      "animation": {
+        "spriteStrip": "art/tile_river1.png",
+        "frameWidth": 32,
+        "frameHeight": 32,
+        "frameCount": 3,
+        "fps": 4,
+        "loop": true
+      }
+    }
+  ]
+}
